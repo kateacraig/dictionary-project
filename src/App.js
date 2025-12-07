@@ -12,8 +12,25 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">
-          <small>This was coded by Kate Craig</small>
+        <footer className="App-footer">
+          <small>
+            Coded by{" "}
+            <a
+              href="https://github.com/kateacraig/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Kate Craig
+            </a>{" "}
+            and hosted by{" "}
+            <a
+              href="https://dictionary-project-kc.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </small>
         </footer>
       </div>
     </div>
