@@ -28,7 +28,7 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <section className="input-form">
+      <section>
         <h1>What word do you want to look up?</h1>
         <div className="container">
           <form className="search-form" onSubmit={search}>
@@ -46,7 +46,7 @@ export default function Dictionary() {
           <p>suggested word: sunset, table, bottle, chair, etc.</p>
         </div>
       </section>
-      <div className="container dictionary-results">
+      <div className="dictionary-results">
         <Results results={results} />
       </div>
     </div>

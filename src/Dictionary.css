@@ -18,13 +18,6 @@
   display: flex;
 }
 
-.Dictionary .input-form {
-  display: block;
-  margin: 0 auto;
-  padding: 30px 10px;
-  width: 92%;
-}
-
 .Dictionary .hint {
   margin-left: 15px;
   margin-top: -1px;
