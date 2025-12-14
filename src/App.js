@@ -16,13 +16,21 @@ export default function App() {
           <small>
             Coded by{" "}
             <a
-              href="https://github.com/kateacraig/dictionary-project"
+              href="https://github.com/kateacraig"
               target="_blank"
               rel="noreferrer"
             >
               Kate Craig
-            </a>{" "}
-            and hosted by{" "}
+            </a>
+            , open sourced on{" "}
+            <a
+              href="https://github.com/kateacraig/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            , and hosted by{" "}
             <a
               href="https://dictionary-project-kc.netlify.app/"
               target="_blank"
@@ -30,6 +38,7 @@ export default function App() {
             >
               Netlify
             </a>
+            .
           </small>
         </footer>
       </div>
